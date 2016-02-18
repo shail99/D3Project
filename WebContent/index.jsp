@@ -1,22 +1,18 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
 <head>
-<script src="http://d3js.org/d3.v3.min.js"> </script>
-
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
 </head>
 <body>
-
-<h1>
-	First D3 project
-</h1>
-
-<script>
-	d3.select("body").append("h2").text("Adding a line using D3");
-</script>
-
+<h2>
+	D3 reading from CSV file
+</h2> 
+	<script type="text/javascript">
+		d3.csv("data.csv", function(myArrayOfObjects) {
+			myArrayOfObjects.forEach(function(d) {
+				console.log(d.x + " " + d.y);
+			});
+		});
+	</script>
 </body>
 </html>
