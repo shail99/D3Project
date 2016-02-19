@@ -1,35 +1,72 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link href="mystyle.css" rel="stylesheet" type="text/css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+<script src="myd3.js" type="text/javascript"> </script>
+
 </head>
 <body>
-<h2>
-	D3 reading from CSV file
-</h2> 
-	<script type="text/javascript">
-		d3.csv("data.csv", function(myArrayOfObjects) {
-			myArrayOfObjects.forEach(function(d) {
-				console.log(d.x + " " + d.y);
-			});
-		});
+<h1>Bar Chart Example</h1>
+	<script>
+	
+	var margin = {top: 20, right: 20, bottom: 30, left: 40},
+    width = 960 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
+
+var x = d3.scale.ordinal()
+    .rangeRoundBands([0, width], .1);
+
+var y = d3.scale.linear()
+    .range([height, 0]);
+
+var xAxis = d3.svg.axis()
+    .scale(x)
+    .orient("bottom");
+
+var yAxis = d3.svg.axis()
+    .scale(y)
+    .orient("left")
+    .ticks(10, "%");
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+    .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
 		
-		var data = [1, 2, 3, 4, 5];
-		var scale = d3.scale.linear()
-					.domain([1,5]) // Data space i.e. the actual data
-					.range([0,100]); // Pixel space to be mapped to
-		
-		var svg = d3.select("body").append("svg")
-				  .attr("width", 500)
-				  .attr("height", 500);
-		
-		svg.selectAll("rect").data(data)
-					.enter().append("rect")
-					.attr("x",scale)
-					.attr("y",50)
-					.attr("width",5)
-					.attr("height",5);
-					
+d3.tsv("data.tsv", type, function(error, data) {
+  if (error) throw error;
+	
+  x.domain(data.map(function(d) { return d.letter; }));
+  y.domain([0, d3.max(data, function(d) { return d.frequency; })]);
+
+  
+  svg.append("g")
+      .attr("class", "x axis")
+      .attr("transform", "translate(0," + height + ")")
+      .call(xAxis);
+
+  svg.append("g")
+      .attr("class", "y axis")
+      .call(yAxis)
+    .append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 6)
+      .attr("dy", ".71em")
+      .style("text-anchor", "end")
+      .text("Frequency");
+
+  svg.selectAll(".bar")
+      .data(data)
+    .enter().append("rect")
+      .attr("class", "bar")
+      .attr("x", function(d) { return x(d.letter); })
+      .attr("width", x.rangeBand())
+      .attr("y", function(d) { return y(d.frequency); })
+      .attr("height", function(d) { return height - y(d.frequency); });
+});
 		
 	</script>
 </body>
