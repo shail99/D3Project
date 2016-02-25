@@ -1377,28 +1377,71 @@ var dataset = dataset.map(function (group) {
  		.attr('width', 360)
  		.attr('height', 600 + margins.top + margins.bottom)
  		.append('g')
- 		.attr('transform', 'translate(' + margins.left + ',' + margins.top + ')'),
+ 		.attr('transform', 'translate(' + margins.left + ',' + margins.top + ')');
+ updateLegend(null);
+ 
+ function updateLegend(selected_rec){
 
+   var extraLine = 0;
    svg1.append('rect')
        .attr('fill', 'yellow')
-       .attr('width', 160)
+       .attr('width', 360)
        .attr('height', 30 * dataset.length)
        .attr('x', margins.left)
        .attr('y', 0);
-
-   series.forEach(function (s, i) {
-       svg1.append('text')
-           .attr('fill', 'black')
-           .attr('x', margins.left + 8)
-           .attr('y', i * 24 + 24)
-           .text(s.name);
-       svg1.append('rect')
-           .attr('fill', colours(i))
-           .attr('width', 60)
-           .attr('height', 20)
-           .attr('x', margins.left + 90)
-           .attr('y', i * 24 + 6);
+   
+	series.forEach(function (s, i) {
+		   if(selected_rec == s)
+		   {
+	   		svg1.append('text')
+           		.attr('fill', 'black')
+           		.attr('x', margins.left + 8)
+           		.attr('y', (extraLine + i) * 24 + 24)
+           		.text(s.name)
+           		.on("click", function(){ updateLegend(s);});
+       
+       		svg1.append('rect')
+           		.attr('fill', colours(i))
+           		.attr('width', 60)
+           		.attr('height', 20)
+           		.attr('x', margins.left + 90)
+           		.attr('y', (extraLine + i) * 24 + 6);
+       		
+       		extraLine++;
+   			}
+		   else
+			   {
+		   		svg1.append('text')
+           		.attr('fill', 'black')
+           		.attr('x', margins.left + 8)
+           		.attr('y', (extraLine + i) * 24 + 24)
+           		.text(s.name)
+           		.on("click", function(){ updateLegend(s);});
+       
+       		svg1.append('rect')
+           		.attr('fill', colours(i))
+           		.attr('width', 60)
+           		.attr('height', 20)
+           		.attr('x', margins.left + 90)
+           		.attr('y', (extraLine + i) * 24 + 6);			   
+			   
+			   }
       });
+ };
+ //insertLineBreaks(s.name + " " + s.ckf + " " + s.ckt)
+ function insertLineBreaks(d){
+	 console.log(d);
+	 var el = d3.select();
+	    var words = d.split(' ');
+	    el.text('');
+
+	    for (var i = 0; i < words.length; i++) {
+	        var tspan = el.append('tspan').text(words[i]);
+	        if (i > 0)
+	            tspan.attr('x', 0).attr('dy', '15');
+	    }
+	    console.log(tspan);
+ }
 
 </script>
 </div>
