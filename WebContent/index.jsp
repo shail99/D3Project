@@ -12,8 +12,8 @@
 }
 #tooltip {
     position: absolute;
-    text-align: center;
-    width: 40px;
+    text-align: left;
+    width: auto;
     height: auto;
     padding: 10px;
     background-color: white;
@@ -33,6 +33,7 @@
     font-family: sans-serif;
     font-size: 16px;
     line-height: 20px;
+    width: auto;
 }
 </style>
 <body>
@@ -55,6 +56,8 @@ width = 1200 - margins.left - margins.right - legendPanel.width,
 [
   {
     "name": "1to2",
+    "checkpointFrom": "Payment.Authorization.Workflow",
+    "checkpointTo": "Authorization_Workflow.TokenId.Registration",
     "data": [
       {
         "time": "00:02",
@@ -128,6 +131,8 @@ width = 1200 - margins.left - margins.right - legendPanel.width,
   },
   {
     "name": "2to3",
+    "checkpointFrom": "Payment.Authorization.Workflow",
+    "checkpointTo": "Authorization_Workflow.TokenId.Registration",
     "data": [
       {
         "time": "00:02",
@@ -201,6 +206,8 @@ width = 1200 - margins.left - margins.right - legendPanel.width,
   },
   {
     "name": "3to4",
+    "checkpointFrom": "Payment.Authorization.Workflow",
+    "checkpointTo": "Authorization_Workflow.TokenId.Registration",
     "data": [
       {
         "time": "00:02",
@@ -274,6 +281,8 @@ width = 1200 - margins.left - margins.right - legendPanel.width,
   },
   {
     "name": "4to5",
+    "checkpointFrom": "Payment.Authorization.Workflow",
+    "checkpointTo": "Authorization_Workflow.TokenId.Registration",
     "data": [
       {
         "time": "00:02",
@@ -347,6 +356,8 @@ width = 1200 - margins.left - margins.right - legendPanel.width,
   },
   {
     "name": "5to6",
+    "checkpointFrom": "Payment.Authorization.Workflow",
+    "checkpointTo": "Authorization_Workflow.TokenId.Registration",
     "data": [
       {
         "time": "00:02",
@@ -420,6 +431,8 @@ width = 1200 - margins.left - margins.right - legendPanel.width,
   },
   {
     "name": "6to7",
+    "checkpointFrom": "Payment.Authorization.Workflow",
+    "checkpointTo": "Authorization_Workflow.TokenId.Registration",
     "data": [
       {
         "time": "00:02",
@@ -493,6 +506,8 @@ width = 1200 - margins.left - margins.right - legendPanel.width,
   },
   {
     "name": "7to8",
+    "checkpointFrom": "Payment.Authorization.Workflow",
+    "checkpointTo": "Authorization_Workflow.TokenId.Registration",
     "data": [
       {
         "time": "00:02",
@@ -566,6 +581,8 @@ width = 1200 - margins.left - margins.right - legendPanel.width,
   },
   {
     "name": "8to9",
+    "checkpointFrom": "Payment.Authorization.Workflow",
+    "checkpointTo": "Authorization_Workflow.TokenId.Registration",
     "data": [
       {
         "time": "00:02",
@@ -639,6 +656,8 @@ width = 1200 - margins.left - margins.right - legendPanel.width,
   },
   {
     "name": "9to10",
+    "checkpointFrom": "Payment.Authorization.Workflow",
+    "checkpointTo": "Authorization_Workflow.TokenId.Registration",
     "data": [
       {
         "time": "00:02",
@@ -712,6 +731,8 @@ width = 1200 - margins.left - margins.right - legendPanel.width,
   },
   {
     "name": "10to11",
+    "checkpointFrom": "Payment.Authorization.Workflow",
+    "checkpointTo": "Authorization_Workflow.TokenId.Registration",
     "data": [
       {
         "time": "00:02",
@@ -785,6 +806,8 @@ width = 1200 - margins.left - margins.right - legendPanel.width,
   },
   {
     "name": "11to12",
+    "checkpointFrom": "Payment.Authorization.Workflow",
+    "checkpointTo": "Authorization_Workflow.TokenId.Registration",
     "data": [
       {
         "time": "00:02",
@@ -858,6 +881,8 @@ width = 1200 - margins.left - margins.right - legendPanel.width,
   },
   {
     "name": "12to13",
+    "checkpointFrom": "Payment.Authorization.Workflow",
+    "checkpointTo": "Authorization_Workflow.TokenId.Registration",
     "data": [
       {
         "time": "00:02",
@@ -931,6 +956,8 @@ width = 1200 - margins.left - margins.right - legendPanel.width,
   },
   {
     "name": "13to14",
+    "checkpointFrom": "Payment.Authorization.Workflow",
+    "checkpointTo": "Authorization_Workflow.TokenId.Registration",
     "data": [
       {
         "time": "00:02",
@@ -1004,6 +1031,8 @@ width = 1200 - margins.left - margins.right - legendPanel.width,
   },
   {
     "name": "14to15",
+    "checkpointFrom": "Payment.Authorization.Workflow",
+    "checkpointTo": "Authorization_Workflow.TokenId.Registration",
     "data": [
       {
         "time": "00:02",
@@ -1077,6 +1106,8 @@ width = 1200 - margins.left - margins.right - legendPanel.width,
   },
   {
     "name": "15to16",
+    "checkpointFrom": "Payment.Authorization.Workflow",
+    "checkpointTo": "Authorization_Workflow.TokenId.Registration",
     "data": [
       {
         "time": "00:02",
@@ -1150,6 +1181,8 @@ width = 1200 - margins.left - margins.right - legendPanel.width,
   },
   {
     "name": "16to17",
+    "checkpointFrom": "Payment.Authorization.Workflow",
+    "checkpointTo": "Authorization_Workflow.TokenId.Registration",
     "data": [
       {
         "time": "00:02",
@@ -1221,17 +1254,23 @@ width = 1200 - margins.left - margins.right - legendPanel.width,
       }
     ]
   }
-],
- 
-    series = dataset.map(function (d) {
-        return d.name;
+];
+console.log("Hello"); 
+var series = dataset.map(function (d) {
+        return {
+        	name: d.name,
+        	ckf: d.checkpointFrom,
+        	ckt: d.checkpointTo
+        };
     }),
     dataset = dataset.map(function (d) {
-        return d.data.map(function (o, i) {          
+        return d.data.map(function (o, i) {
             return {
                 y: +o.count,
                 x: o.time,
-                name: d.name
+                name: d.name,
+                ckf: d.checkpointFrom,
+            	ckt: d.checkpointTo
             };
         });
     }),
@@ -1245,7 +1284,9 @@ var dataset = dataset.map(function (group) {
             x: d.y,
             y: d.x,
             x0: d.y0,
-            name: d.name
+            name: d.name,
+            ckf: d.ckf,
+        	ckt: d.ckt
         };
     });
 }),
@@ -1309,7 +1350,7 @@ var dataset = dataset.map(function (group) {
             .style('left', xPos + 'px')
             .style('top', yPos + 'px')
             .select('#value')
-            .text(d.x);// + "," + d.y + "," + d.name);
+            .html("Count: "+ d.x +"<br>Time: "+ d.y + "<br>Checkpoint 1: " + d.ckf + "<br>Checkpoint 2: " + d.ckt);// + "," + d.y + "," + d.name);
 
         d3.select('#tooltip').classed('hidden', false);
     })
@@ -1334,7 +1375,7 @@ var dataset = dataset.map(function (group) {
  svg1 = d3.select('#subframe2')
  		.append('svg')
  		.attr('width', 360)
- 		.attr('height', height + margins.top + margins.bottom)
+ 		.attr('height', 600 + margins.top + margins.bottom)
  		.append('g')
  		.attr('transform', 'translate(' + margins.left + ',' + margins.top + ')'),
 
@@ -1350,7 +1391,7 @@ var dataset = dataset.map(function (group) {
            .attr('fill', 'black')
            .attr('x', margins.left + 8)
            .attr('y', i * 24 + 24)
-           .text(s);
+           .text(s.name);
        svg1.append('rect')
            .attr('fill', colours(i))
            .attr('width', 60)
