@@ -70,62 +70,6 @@ width = 1200 - margins.left - margins.right - legendPanel.width,
       {
         "time": "00:05",
         "count": "5"
-      },
-      {
-        "time": "00:09",
-        "count": "6"
-      },
-      {
-        "time": "00:10",
-        "count": "6"
-      },
-      {
-        "time": "00:11",
-        "count": "6"
-      },
-      {
-        "time": "00:12",
-        "count": "6"
-      },
-      {
-        "time": "00:13",
-        "count": "9"
-      },
-      {
-        "time": "00:14",
-        "count": "5"
-      },
-      {
-        "time": "00:16",
-        "count": "4"
-      },
-      {
-        "time": "00:17",
-        "count": "5"
-      },
-      {
-        "time": "00:18",
-        "count": "7"
-      },
-      {
-        "time": "00:19",
-        "count": "7"
-      },
-      {
-        "time": "00:20",
-        "count": "6"
-      },
-      {
-        "time": "00:21",
-        "count": "5"
-      },
-      {
-        "time": "00:23",
-        "count": "5"
-      },
-      {
-        "time": "00:24",
-        "count": "15"
       }
     ]
   },
@@ -144,62 +88,6 @@ width = 1200 - margins.left - margins.right - legendPanel.width,
       },
       {
         "time": "00:05",
-        "count": "0"
-      },
-      {
-        "time": "00:09",
-        "count": "0"
-      },
-      {
-        "time": "00:10",
-        "count": "0"
-      },
-      {
-        "time": "00:11",
-        "count": "0"
-      },
-      {
-        "time": "00:12",
-        "count": "0"
-      },
-      {
-        "time": "00:13",
-        "count": "0"
-      },
-      {
-        "time": "00:14",
-        "count": "0"
-      },
-      {
-        "time": "00:16",
-        "count": "0"
-      },
-      {
-        "time": "00:17",
-        "count": "0"
-      },
-      {
-        "time": "00:18",
-        "count": "0"
-      },
-      {
-        "time": "00:19",
-        "count": "0"
-      },
-      {
-        "time": "00:20",
-        "count": "0"
-      },
-      {
-        "time": "00:21",
-        "count": "0"
-      },
-      {
-        "time": "00:23",
-        "count": "0"
-      },
-      {
-        "time": "00:24",
         "count": "0"
       }
     ]
@@ -220,62 +108,6 @@ width = 1200 - margins.left - margins.right - legendPanel.width,
       {
         "time": "00:05",
         "count": "16"
-      },
-      {
-        "time": "00:09",
-        "count": "22"
-      },
-      {
-        "time": "00:10",
-        "count": "21"
-      },
-      {
-        "time": "00:11",
-        "count": "23"
-      },
-      {
-        "time": "00:12",
-        "count": "29"
-      },
-      {
-        "time": "00:13",
-        "count": "22"
-      },
-      {
-        "time": "00:14",
-        "count": "18"
-      },
-      {
-        "time": "00:16",
-        "count": "20"
-      },
-      {
-        "time": "00:17",
-        "count": "29"
-      },
-      {
-        "time": "00:18",
-        "count": "23"
-      },
-      {
-        "time": "00:19",
-        "count": "23"
-      },
-      {
-        "time": "00:20",
-        "count": "22"
-      },
-      {
-        "time": "00:21",
-        "count": "24"
-      },
-      {
-        "time": "00:23",
-        "count": "28"
-      },
-      {
-        "time": "00:24",
-        "count": "20"
       }
     ]
   },
@@ -294,62 +126,6 @@ width = 1200 - margins.left - margins.right - legendPanel.width,
       },
       {
         "time": "00:05",
-        "count": "0"
-      },
-      {
-        "time": "00:09",
-        "count": "0"
-      },
-      {
-        "time": "00:10",
-        "count": "0"
-      },
-      {
-        "time": "00:11",
-        "count": "0"
-      },
-      {
-        "time": "00:12",
-        "count": "0"
-      },
-      {
-        "time": "00:13",
-        "count": "0"
-      },
-      {
-        "time": "00:14",
-        "count": "0"
-      },
-      {
-        "time": "00:16",
-        "count": "0"
-      },
-      {
-        "time": "00:17",
-        "count": "0"
-      },
-      {
-        "time": "00:18",
-        "count": "0"
-      },
-      {
-        "time": "00:19",
-        "count": "0"
-      },
-      {
-        "time": "00:20",
-        "count": "0"
-      },
-      {
-        "time": "00:21",
-        "count": "0"
-      },
-      {
-        "time": "00:23",
-        "count": "0"
-      },
-      {
-        "time": "00:24",
         "count": "0"
       }
     ]
@@ -370,62 +146,6 @@ width = 1200 - margins.left - margins.right - legendPanel.width,
       {
         "time": "00:05",
         "count": "0"
-      },
-      {
-        "time": "00:09",
-        "count": "0"
-      },
-      {
-        "time": "00:10",
-        "count": "0"
-      },
-      {
-        "time": "00:11",
-        "count": "0"
-      },
-      {
-        "time": "00:12",
-        "count": "0"
-      },
-      {
-        "time": "00:13",
-        "count": "0"
-      },
-      {
-        "time": "00:14",
-        "count": "0"
-      },
-      {
-        "time": "00:16",
-        "count": "0"
-      },
-      {
-        "time": "00:17",
-        "count": "0"
-      },
-      {
-        "time": "00:18",
-        "count": "0"
-      },
-      {
-        "time": "00:19",
-        "count": "0"
-      },
-      {
-        "time": "00:20",
-        "count": "0"
-      },
-      {
-        "time": "00:21",
-        "count": "0"
-      },
-      {
-        "time": "00:23",
-        "count": "0"
-      },
-      {
-        "time": "00:24",
-        "count": "4"
       }
     ]
   },
@@ -444,62 +164,6 @@ width = 1200 - margins.left - margins.right - legendPanel.width,
       },
       {
         "time": "00:05",
-        "count": "0"
-      },
-      {
-        "time": "00:09",
-        "count": "0"
-      },
-      {
-        "time": "00:10",
-        "count": "0"
-      },
-      {
-        "time": "00:11",
-        "count": "0"
-      },
-      {
-        "time": "00:12",
-        "count": "0"
-      },
-      {
-        "time": "00:13",
-        "count": "0"
-      },
-      {
-        "time": "00:14",
-        "count": "0"
-      },
-      {
-        "time": "00:16",
-        "count": "0"
-      },
-      {
-        "time": "00:17",
-        "count": "0"
-      },
-      {
-        "time": "00:18",
-        "count": "0"
-      },
-      {
-        "time": "00:19",
-        "count": "0"
-      },
-      {
-        "time": "00:20",
-        "count": "0"
-      },
-      {
-        "time": "00:21",
-        "count": "0"
-      },
-      {
-        "time": "00:23",
-        "count": "0"
-      },
-      {
-        "time": "00:24",
         "count": "0"
       }
     ]
@@ -520,62 +184,6 @@ width = 1200 - margins.left - margins.right - legendPanel.width,
       {
         "time": "00:05",
         "count": "3"
-      },
-      {
-        "time": "00:09",
-        "count": "3"
-      },
-      {
-        "time": "00:10",
-        "count": "3"
-      },
-      {
-        "time": "00:11",
-        "count": "3"
-      },
-      {
-        "time": "00:12",
-        "count": "3"
-      },
-      {
-        "time": "00:13",
-        "count": "2"
-      },
-      {
-        "time": "00:14",
-        "count": "3"
-      },
-      {
-        "time": "00:16",
-        "count": "3"
-      },
-      {
-        "time": "00:17",
-        "count": "3"
-      },
-      {
-        "time": "00:18",
-        "count": "4"
-      },
-      {
-        "time": "00:19",
-        "count": "4"
-      },
-      {
-        "time": "00:20",
-        "count": "2"
-      },
-      {
-        "time": "00:21",
-        "count": "3"
-      },
-      {
-        "time": "00:23",
-        "count": "3"
-      },
-      {
-        "time": "00:24",
-        "count": "3"
       }
     ]
   },
@@ -594,62 +202,6 @@ width = 1200 - margins.left - margins.right - legendPanel.width,
       },
       {
         "time": "00:05",
-        "count": "0"
-      },
-      {
-        "time": "00:09",
-        "count": "0"
-      },
-      {
-        "time": "00:10",
-        "count": "0"
-      },
-      {
-        "time": "00:11",
-        "count": "0"
-      },
-      {
-        "time": "00:12",
-        "count": "0"
-      },
-      {
-        "time": "00:13",
-        "count": "0"
-      },
-      {
-        "time": "00:14",
-        "count": "0"
-      },
-      {
-        "time": "00:16",
-        "count": "0"
-      },
-      {
-        "time": "00:17",
-        "count": "0"
-      },
-      {
-        "time": "00:18",
-        "count": "0"
-      },
-      {
-        "time": "00:19",
-        "count": "0"
-      },
-      {
-        "time": "00:20",
-        "count": "0"
-      },
-      {
-        "time": "00:21",
-        "count": "0"
-      },
-      {
-        "time": "00:23",
-        "count": "0"
-      },
-      {
-        "time": "00:24",
         "count": "0"
       }
     ]
@@ -670,62 +222,6 @@ width = 1200 - margins.left - margins.right - legendPanel.width,
       {
         "time": "00:05",
         "count": "2"
-      },
-      {
-        "time": "00:09",
-        "count": "2"
-      },
-      {
-        "time": "00:10",
-        "count": "2"
-      },
-      {
-        "time": "00:11",
-        "count": "2"
-      },
-      {
-        "time": "00:12",
-        "count": "3"
-      },
-      {
-        "time": "00:13",
-        "count": "2"
-      },
-      {
-        "time": "00:14",
-        "count": "2"
-      },
-      {
-        "time": "00:16",
-        "count": "1"
-      },
-      {
-        "time": "00:17",
-        "count": "2"
-      },
-      {
-        "time": "00:18",
-        "count": "2"
-      },
-      {
-        "time": "00:19",
-        "count": "2"
-      },
-      {
-        "time": "00:20",
-        "count": "2"
-      },
-      {
-        "time": "00:21",
-        "count": "2"
-      },
-      {
-        "time": "00:23",
-        "count": "2"
-      },
-      {
-        "time": "00:24",
-        "count": "2"
       }
     ]
   },
@@ -745,62 +241,6 @@ width = 1200 - margins.left - margins.right - legendPanel.width,
       {
         "time": "00:05",
         "count": "548"
-      },
-      {
-        "time": "00:09",
-        "count": "531"
-      },
-      {
-        "time": "00:10",
-        "count": "618"
-      },
-      {
-        "time": "00:11",
-        "count": "474"
-      },
-      {
-        "time": "00:12",
-        "count": "491"
-      },
-      {
-        "time": "00:13",
-        "count": "540"
-      },
-      {
-        "time": "00:14",
-        "count": "417"
-      },
-      {
-        "time": "00:16",
-        "count": "555"
-      },
-      {
-        "time": "00:17",
-        "count": "392"
-      },
-      {
-        "time": "00:18",
-        "count": "383"
-      },
-      {
-        "time": "00:19",
-        "count": "479"
-      },
-      {
-        "time": "00:20",
-        "count": "478"
-      },
-      {
-        "time": "00:21",
-        "count": "413"
-      },
-      {
-        "time": "00:23",
-        "count": "433"
-      },
-      {
-        "time": "00:24",
-        "count": "627"
       }
     ]
   },
@@ -819,62 +259,6 @@ width = 1200 - margins.left - margins.right - legendPanel.width,
       },
       {
         "time": "00:05",
-        "count": "0"
-      },
-      {
-        "time": "00:09",
-        "count": "0"
-      },
-      {
-        "time": "00:10",
-        "count": "0"
-      },
-      {
-        "time": "00:11",
-        "count": "0"
-      },
-      {
-        "time": "00:12",
-        "count": "0"
-      },
-      {
-        "time": "00:13",
-        "count": "0"
-      },
-      {
-        "time": "00:14",
-        "count": "0"
-      },
-      {
-        "time": "00:16",
-        "count": "0"
-      },
-      {
-        "time": "00:17",
-        "count": "0"
-      },
-      {
-        "time": "00:18",
-        "count": "0"
-      },
-      {
-        "time": "00:19",
-        "count": "0"
-      },
-      {
-        "time": "00:20",
-        "count": "0"
-      },
-      {
-        "time": "00:21",
-        "count": "0"
-      },
-      {
-        "time": "00:23",
-        "count": "0"
-      },
-      {
-        "time": "00:24",
         "count": "0"
       }
     ]
@@ -895,62 +279,6 @@ width = 1200 - margins.left - margins.right - legendPanel.width,
       {
         "time": "00:05",
         "count": "1"
-      },
-      {
-        "time": "00:09",
-        "count": "2"
-      },
-      {
-        "time": "00:10",
-        "count": "2"
-      },
-      {
-        "time": "00:11",
-        "count": "2"
-      },
-      {
-        "time": "00:12",
-        "count": "1"
-      },
-      {
-        "time": "00:13",
-        "count": "1"
-      },
-      {
-        "time": "00:14",
-        "count": "2"
-      },
-      {
-        "time": "00:16",
-        "count": "1"
-      },
-      {
-        "time": "00:17",
-        "count": "6"
-      },
-      {
-        "time": "00:18",
-        "count": "1"
-      },
-      {
-        "time": "00:19",
-        "count": "2"
-      },
-      {
-        "time": "00:20",
-        "count": "1"
-      },
-      {
-        "time": "00:21",
-        "count": "3"
-      },
-      {
-        "time": "00:23",
-        "count": "2"
-      },
-      {
-        "time": "00:24",
-        "count": "2"
       }
     ]
   },
@@ -969,62 +297,6 @@ width = 1200 - margins.left - margins.right - legendPanel.width,
       },
       {
         "time": "00:05",
-        "count": "3"
-      },
-      {
-        "time": "00:09",
-        "count": "3"
-      },
-      {
-        "time": "00:10",
-        "count": "4"
-      },
-      {
-        "time": "00:11",
-        "count": "3"
-      },
-      {
-        "time": "00:12",
-        "count": "3"
-      },
-      {
-        "time": "00:13",
-        "count": "3"
-      },
-      {
-        "time": "00:14",
-        "count": "86"
-      },
-      {
-        "time": "00:16",
-        "count": "3"
-      },
-      {
-        "time": "00:17",
-        "count": "4"
-      },
-      {
-        "time": "00:18",
-        "count": "3"
-      },
-      {
-        "time": "00:19",
-        "count": "3"
-      },
-      {
-        "time": "00:20",
-        "count": "3"
-      },
-      {
-        "time": "00:21",
-        "count": "3"
-      },
-      {
-        "time": "00:23",
-        "count": "4"
-      },
-      {
-        "time": "00:24",
         "count": "3"
       }
     ]
@@ -1045,62 +317,6 @@ width = 1200 - margins.left - margins.right - legendPanel.width,
       {
         "time": "00:05",
         "count": "0"
-      },
-      {
-        "time": "00:09",
-        "count": "0"
-      },
-      {
-        "time": "00:10",
-        "count": "0"
-      },
-      {
-        "time": "00:11",
-        "count": "0"
-      },
-      {
-        "time": "00:12",
-        "count": "0"
-      },
-      {
-        "time": "00:13",
-        "count": "0"
-      },
-      {
-        "time": "00:14",
-        "count": "0"
-      },
-      {
-        "time": "00:16",
-        "count": "0"
-      },
-      {
-        "time": "00:17",
-        "count": "0"
-      },
-      {
-        "time": "00:18",
-        "count": "0"
-      },
-      {
-        "time": "00:19",
-        "count": "0"
-      },
-      {
-        "time": "00:20",
-        "count": "0"
-      },
-      {
-        "time": "00:21",
-        "count": "0"
-      },
-      {
-        "time": "00:23",
-        "count": "0"
-      },
-      {
-        "time": "00:24",
-        "count": "0"
       }
     ]
   },
@@ -1119,62 +335,6 @@ width = 1200 - margins.left - margins.right - legendPanel.width,
       },
       {
         "time": "00:05",
-        "count": "0"
-      },
-      {
-        "time": "00:09",
-        "count": "0"
-      },
-      {
-        "time": "00:10",
-        "count": "0"
-      },
-      {
-        "time": "00:11",
-        "count": "0"
-      },
-      {
-        "time": "00:12",
-        "count": "0"
-      },
-      {
-        "time": "00:13",
-        "count": "0"
-      },
-      {
-        "time": "00:14",
-        "count": "0"
-      },
-      {
-        "time": "00:16",
-        "count": "0"
-      },
-      {
-        "time": "00:17",
-        "count": "0"
-      },
-      {
-        "time": "00:18",
-        "count": "0"
-      },
-      {
-        "time": "00:19",
-        "count": "0"
-      },
-      {
-        "time": "00:20",
-        "count": "0"
-      },
-      {
-        "time": "00:21",
-        "count": "0"
-      },
-      {
-        "time": "00:23",
-        "count": "0"
-      },
-      {
-        "time": "00:24",
         "count": "0"
       }
     ]
@@ -1195,62 +355,6 @@ width = 1200 - margins.left - margins.right - legendPanel.width,
       {
         "time": "00:05",
         "count": "2"
-      },
-      {
-        "time": "00:09",
-        "count": "2"
-      },
-      {
-        "time": "00:10",
-        "count": "2"
-      },
-      {
-        "time": "00:11",
-        "count": "3"
-      },
-      {
-        "time": "00:12",
-        "count": "2"
-      },
-      {
-        "time": "00:13",
-        "count": "2"
-      },
-      {
-        "time": "00:14",
-        "count": "2"
-      },
-      {
-        "time": "00:16",
-        "count": "2"
-      },
-      {
-        "time": "00:17",
-        "count": "2"
-      },
-      {
-        "time": "00:18",
-        "count": "2"
-      },
-      {
-        "time": "00:19",
-        "count": "2"
-      },
-      {
-        "time": "00:20",
-        "count": "2"
-      },
-      {
-        "time": "00:21",
-        "count": "2"
-      },
-      {
-        "time": "00:23",
-        "count": "2"
-      },
-      {
-        "time": "00:24",
-        "count": "3"
       }
     ]
   }
@@ -1335,10 +439,10 @@ var dataset = dataset.map(function (group) {
         return xScale(d.x0);
     })
         .attr('y', function (d, i) {
-        return yScale(d.y);
+        return yScale(d.y) + (yScale.rangeBand() - d3.min([yScale.rangeBand(),100]))/2;
     })
         .attr('height', function (d) {
-        return yScale.rangeBand();
+        return d3.min([yScale.rangeBand(),100]);
     })
         .attr('width', function (d) {
         return xScale(d.x);
@@ -1356,7 +460,7 @@ var dataset = dataset.map(function (group) {
     })
         .on('mouseout', function () {
         d3.select('#tooltip').classed('hidden', true);
-    })
+    });
 
     svg.append('g')
         .attr('class', 'axis')
@@ -1428,7 +532,6 @@ var dataset = dataset.map(function (group) {
 			   }
       });
  };
- //insertLineBreaks(s.name + " " + s.ckf + " " + s.ckt)
  function insertLineBreaks(d){
 	 console.log(d);
 	 var el = d3.select();
